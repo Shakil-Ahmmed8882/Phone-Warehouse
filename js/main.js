@@ -1,14 +1,17 @@
-let num1 = parseInt(prompt('Enter your first number'))
-let num2 = parseInt (prompt('Enter your second number'))
 
+// function openNav(){
+//       document.getElementById("myOverlay").style.width = "100%";
+// }
+// function closeNav(){
+//       document.getElementById("myOverlay").style.width = "0%";
+// }
 
-let sum = 0
-
-
-for (let i = num1 ;i <= num2; i++){
-    sum += i
-
-}
-
-
-document.write('sum' + sum)
+function openNav(){
+      document.getElementById('overlay')
+      .style.width="100%";
+      
+  }
+  function closeNav(){
+      document.getElementById('overlay')
+      .style.width="0%";
+  }
